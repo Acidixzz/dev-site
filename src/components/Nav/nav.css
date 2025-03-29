@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+nav {
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    width: 100%;
+    background: var(--container-background);
+    border-color: var(--border-color);
+    border-bottom-width: 1px;
+    height: 10vh;
+}

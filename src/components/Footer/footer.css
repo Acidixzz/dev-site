@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+footer {
+    width: 100%;
+    background: #050505;
+    border-color: var(--border-color);
+    border-top-width: 1px;
+    height: 8vh;
+}
