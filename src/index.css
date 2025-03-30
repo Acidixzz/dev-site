@@ -4,8 +4,10 @@
 
 :root {
   /* Colors */
+  --footer: #050505;
   --background: #101010;
   --container-background: #171717;
+  --header: #202020;
   --foreground: #ffffff;
   --skyblue: #17b6ff;
   --skyblue-dull: #135d80;
@@ -18,7 +20,7 @@
 }
 
 body {
-  background: var(--background);
+  background: var(--footer);
   color: var(--foreground-rgb);
   overflow-x: hidden;
 }
@@ -29,7 +31,6 @@ body {
   border-radius: 25px;
   border-width: 1px;
   border-color: var(--border-color);
-  margin-top: 15vh;
   margin-bottom: 10vh;
   padding-bottom: 5vh;
 }
