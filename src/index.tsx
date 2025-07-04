@@ -18,12 +18,12 @@ if (import.meta.env.DEV && !(root instanceof HTMLElement)) {
   );
 }
 
-render(() => 
+render(() =>
   <>
     {/* <Nav /> */}
     <Router>
-      <Route path="/" component={Home} /> {/* Home redirects to Education */}
-      <Route path="*" component={NotFound} /> {/* 404 fallback */}
+      <Route path="/dev-site" component={Home} /> {/* Home redirects to Education */}
+      <Route path="/dev-site/*" component={NotFound} /> {/* 404 fallback */}
     </Router>
     <Footer />
   </>
